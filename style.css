@@ -1,0 +1,231 @@
+/* Author: Marina Lazaridou */
+/* Subject: Portfolio */
+/* File Format: CSS */
+
+
+/* Start script */
+
+body {
+	margin-left: 10em;
+	margin-right: 10em;
+    font-family: Tahoma, Franklin Gothic Medium, Trebuchet MS;
+    color: 	#000000;
+	background-image: url("testback4.png");
+	font-family: Trebuchet MS, Franklin Gothic Medium, Tahoma;
+	font-size : 1em;
+	font-weight: lighter;
+	text-align: justify;
+	border-radius: 10px 60px;
+	border-opacity: 
+}
+
+h1 {
+	font-family: Tahoma, Franklin Gothic Medium, Trebuchet MS;
+	display: block;
+	text-align: center;
+	font-size : 4.3em;
+	margin-top: 0.67em;
+	margin-bottom: 0.35em;
+	color: rgb(51,6,6);
+	opacity: 0.95;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: Trebuchet MS, Franklin Gothic Medium, Tahoma;
+	text-align: center;
+	color: rgb(75,10,10);
+	font-size : 1.3em;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 0em;
+	opacity: 0.8;
+	line-height: 0.3;
+}
+
+h3 {
+	font-family: Trebuchet MS, Franklin Gothic Medium, Tahoma;
+	text-align: justify;
+	color: rgb(75,10,10);
+	font-size : 0.9em;
+	font-weight: bold;
+	line-height: 1;
+	margin-right: 80px;
+	opacity: 0.8;
+	font-style: italic;
+}
+
+h4 {
+	font-family: Trebuchet MS, Franklin Gothic Medium, Tahoma;
+	text-align: justify;
+	color: rgb(75,10,10);
+	font-size : 0.9em;
+	font-weight: bold;
+	line-height: 1;
+	margin-left: 145px;
+	margin-right: 80px;
+	margin-top: 250px;
+	opacity: 0.8;
+	font-style: italic;
+}
+
+
+/* Modal */
+
+#myImg {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+	border:2.5px solid black;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+
+#myImg:hover {
+	opacity: 0.7;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+}
+
+#caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+.modal-content,
+#caption {
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+	from {
+		transform: scale(0)
+		}
+	to {
+		transform: scale(1)
+	}
+}
+
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+	.modal-content {
+		width: 100%;
+	}
+}
+
+
+/* End of Modal */
+
+
+/* Text next to image */
+
+.content {
+  display: flex;
+}
+
+.content img {
+  margin-right: 50px;
+  display: block;
+}
+
+.content h3,
+.content p {
+	margin-top: 160px;
+}
+
+/* End of text next to image */
+
+
+/* Video */
+
+video {
+	cursor: pointer;
+	transition: 0.3s;
+	margin-top: 50px;
+	margin-left: 160px;
+}
+
+
+video:focus {outline:none;}
+
+video::-webkit-media-controls-volume-slider {
+display:none;
+}
+
+video::-webkit-media-controls-mute-button {
+display:none;
+}
+	
+/* End of video */
+
+
+
+/* Fancy border */
+
+.fancy {
+  padding : 1em;
+  width: 100%;
+  height: 2300px;
+  box-sizing: border-box;
+  background-color: rgb(231,239,238);
+  
+  background-image: linear-gradient(-95deg, rgba(0,0,0,0) 97%, rgb(70,102,97) 97%),
+                    linear-gradient(-12deg, rgba(0,0,0,0) 97%, rgb(70,102,97) 97%),
+                    linear-gradient(-95deg, rgba(0,0,0,0) 94%, rgb(95,137,130) 94%),
+                    linear-gradient(-12deg, rgba(0,0,0,0) 95%, rgb(95,137,130) 95%),
+                    linear-gradient(-95deg, rgba(0,0,0,0) 91%, rgb(135,173,167) 91%),
+                    linear-gradient(-12deg, rgba(0,0,0,0) 93%, rgb(135,173,167) 93%),
+                    linear-gradient(-95deg, rgba(0,0,0,0) 88%, rgb(175,201,197) 88%),
+                    linear-gradient(-12deg, rgba(0,0,0,0) 90.7%, rgb(175,201,197) 90.7%),
+                    linear-gradient(-95deg, rgba(0,0,0,0) 85%, rgb(206,221,219) 85%),
+                    linear-gradient(-12deg, rgba(0,0,0,0) 88.5%, rgb(206,221,219) 88.5%),
+                    linear-gradient(-95deg, rgba(0,0,0,0) 82%, rgb(223,234,232) 82%),
+                    linear-gradient(-12deg, rgba(0,0,0,0) 86%, rgb(223,234,232) 86%);					
+  
+}
+
+/* End of fancy border */
+
+/* End of script */
