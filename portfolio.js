@@ -1,4 +1,4 @@
-// This is an HTML5 document.
+// This is a JavaScript document.
 
 
 // Author: Marina Lazaridou
