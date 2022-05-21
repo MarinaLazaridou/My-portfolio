@@ -35,7 +35,7 @@ h2 {
 	font-family: Trebuchet MS, Franklin Gothic Medium, Tahoma;
 	text-align: center;
 	color: rgb(75,10,10);
-	font-size : 1.3em;
+	font-size : 1.3em important;
 	font-weight: bold;
 	font-style: italic;
 	margin-bottom: 0em;
