@@ -74,10 +74,12 @@ h4 {
 
 #myImg {
 	/* New */
-	max-width: 100%;
-	height: auto;
+	width: 900px;
+	height: 600px;
 	display: block;
-	margin: 0 auto;
+	margin: 1.5em auto;
+	aspect-ratio: 4/3;
+	object-fit: cover;
 	/* End of New */
 	border-radius: 5px;
 	cursor: pointer;
@@ -243,12 +245,19 @@ display:none;
 }
 
 /* Fancy border - mobile phone */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.fancy {
 		background-image: none !important;
 		background-colour: rgb(231,239,238);
-		padding: 1em !important;
+		padding: 1.5em !important;
 	}
+
+	#myImg {
+		width: 100% !important;
+		max-width: 100% !important;
+		height: auto !important;
+		aspect-ratio: auto !important;
+	}	
 }
 
 /* End of fancy border */
