@@ -239,6 +239,15 @@ display:none;
   
 }
 
+/* Fancy border - mobile phone */
+@media (max-width: 768px) {
+	.fancy {
+		background-image: none;
+		background-colour: rgb(231,239,238);
+		padding: 1em;
+	}
+}
+
 /* End of fancy border */
 
 /* End of script */
