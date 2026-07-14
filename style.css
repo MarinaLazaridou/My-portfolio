@@ -77,8 +77,8 @@ h4 {
 	cursor: pointer;
 	transition: 0.3s;
 	border:2.5px solid black;
-	/* margin-top: 50px;
-	margin-left: 80px; */
+	margin-top: 50px;
+	/* margin-left: 80px; */
 	margin-right: auto;
 	margin-left: auto;
 }
