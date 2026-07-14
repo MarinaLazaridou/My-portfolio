@@ -168,7 +168,8 @@ h4 {
 }
 
 .content img {
-  margin-right: 50px;
+  /* margin-right: 50px; */
+	margin-right: auto;
   display: block;
 }
 
