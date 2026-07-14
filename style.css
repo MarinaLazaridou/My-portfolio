@@ -249,7 +249,12 @@ display:none;
 	.fancy {
 		background-image: none !important;
 		background-colour: rgb(231,239,238);
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: center !important;
 		padding: 1.5em !important;
+		
+		
 	}
 
 	#myImg {
@@ -257,6 +262,7 @@ display:none;
 		max-width: 100% !important;
 		height: auto !important;
 		aspect-ratio: auto !important;
+		margin: 1em auto !important;
 	}	
 }
 
