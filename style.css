@@ -245,7 +245,7 @@ display:none;
 } */
 
 /* Fancy border - mobile phone */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 	.fancy {
 		background-image: none !important;
 		background-colour: rgb(231,239,238);
@@ -269,7 +269,7 @@ display:none;
 /* End of fancy border */
 
 /* Mobile Phone */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
 		background-image: none !important;
 		background-colour: rgb(231,239,238);
 		display: flex !important;
