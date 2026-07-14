@@ -73,6 +73,12 @@ h4 {
 /* Modal */
 
 #myImg {
+	/* New */
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	/* End of New */
 	border-radius: 5px;
 	cursor: pointer;
 	transition: 0.3s;
@@ -212,7 +218,9 @@ display:none;
 .fancy {
   padding : 1em;
   width: 100%;
-  height: 3450px;
+	min-height: 100vh;
+  height: auto;
+	/* height: 3450px; */
   box-sizing: border-box;
   background-color: rgb(231,239,238);
   
