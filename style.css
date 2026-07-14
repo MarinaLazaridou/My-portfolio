@@ -219,13 +219,13 @@ display:none;
 
 
 /* Fancy border */
-
+/*
 .fancy {
   min-height: 100vh;
   padding: 1em;
   width: 100%;
   height: auto;
-	/* height: 3450px; */
+	/* height: 3450px; 
   box-sizing: border-box;
   background-color: rgb(231,239,238);
   
@@ -242,7 +242,7 @@ display:none;
                     linear-gradient(-95deg, rgba(0,0,0,0) 82%, rgb(223,234,232) 82%),
                     linear-gradient(-12deg, rgba(0,0,0,0) 86%, rgb(223,234,232) 86%);					
   
-}
+} */
 
 /* Fancy border - mobile phone */
 @media screen and (max-width: 768px) {
@@ -267,5 +267,27 @@ display:none;
 }
 
 /* End of fancy border */
+
+/* Mobile Phone */
+@media screen and (max-width: 768px) {
+		background-image: none !important;
+		background-colour: rgb(231,239,238);
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: center !important;
+		padding: 1.5em !important;
+		
+		
+	}
+
+	#myImg {
+		width: 100% !important;
+		max-width: 100% !important;
+		height: auto !important;
+		aspect-ratio: auto !important;
+		margin: 1em auto !important;
+	}	
+
+
 
 /* End of script */
