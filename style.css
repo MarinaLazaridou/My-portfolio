@@ -242,9 +242,9 @@ display:none;
 /* Fancy border - mobile phone */
 @media (max-width: 768px) {
 	.fancy {
-		background-image: none;
+		background-image: none !important;
 		background-colour: rgb(231,239,238);
-		padding: 1em;
+		padding: 1em !important;
 	}
 }
 
