@@ -277,16 +277,16 @@ display:none;
 		align-items: center !important;
 		padding: 1.5em !important;
 		
-		
-	}
-
-	#myImg {
+		#myImg {
 		width: 100%;
 		max-width: 100%;
 		height: auto;
 		aspect-ratio: auto;
 		margin: 1em auto;
 	}	
+
+	}
+
 
 
 
