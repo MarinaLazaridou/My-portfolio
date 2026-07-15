@@ -281,11 +281,11 @@ display:none;
 	}
 
 	#myImg {
-		width: 100% !important;
-		max-width: 100% !important;
-		height: auto !important;
-		aspect-ratio: auto !important;
-		margin: 1em auto !important;
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+		aspect-ratio: auto;
+		margin: 1em auto;
 	}	
 
 
